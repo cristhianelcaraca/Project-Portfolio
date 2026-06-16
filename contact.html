@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,46 +26,164 @@
       rel="stylesheet"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
 
-    <script
-      src="https://kit.fontawesome.com/ddc3ee268a.js"
-      crossorigin="anonymous"
-    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
 
-    <title>Cristhiane Caraça</title>
+    <meta
+      name="description"
+      content="Cristhiane Caraça, front-end developer based in Portugal"
+    />
+
+    <title>Cristhiane Caraça - Front-end Developer</title>
   </head>
+
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/color-logo.png"
+            alt="Cris Caraça logo"
+            class="logo d-none d-md-block"
+          />
+          <img
+            src="images/small-logo.png"
+            alt="Cris Caraça small logo"
+            class="small-logo d-block d-md-none"
+          />
+        </a>
+
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Cristhiane Caraça">About</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Social media from Cris Caraça">
+              Contact
+            </a>
+          </li>
+          <li>
+            <a href="/work.html" title="Cris Caraça Projects">Work</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
-      <div class="content">
-        <h1 class="mb-5">Let's get in touch!</h1>
+      <div class="content text-center">
+        <h1 class="mb-5">Let's work together!</h1>
+
+        <br />
+        <br />
+
         <h3>E-mail</h3>
         <p>
-          <a href="mailto:cristhianelcaraca@gmail.com"
-            >crishtianelcaraca@gmail.com</a
-          >
+          <a href="mailto:cristhianelcaraca@gmail.com" title="Email me">
+            cristhianelcaraca@gmail.com
+          </a>
         </p>
+
+        <br />
+        <br />
+
         <h3>Instagram</h3>
         <p>
-          <a href="https://www.instagram.com/cristhianecaraca/" target="_blank">
+          <a
+            href="https://www.instagram.com/cristhianecaraca/"
+            target="_blank"
+            title="Instagram profile"
+          >
             @cristhianecaraca
           </a>
         </p>
-        <h3>Linkedin</h3>
+
+        <br />
+        <br />
+
+        <h3>LinkedIn</h3>
         <p>
           <a
             href="https://www.linkedin.com/in/cris-cara%C3%A7a-b975163a8/?locale=en-US"
             target="_blank"
+            title="LinkedIn profile"
           >
-            Cris Caraça</a
-          >
+            Cris Caraça
+          </a>
         </p>
       </div>
+    </div>
+
+    <div class="container">
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+
+          <div>
+            <a href="/contact.html" class="btn btn-branding"> Contact me </a>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:cristhianelcaraca@gmail.com"
+            class="email-link"
+            title="Email me"
+          >
+            cristhianelcaraca@gmail.com
+          </a>
+        </div>
+
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/cristhianecaraca/"
+            target="_blank"
+            title="Instagram profile"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/cris-cara%C3%A7a-b975163a8/?locale=en-US"
+            target="_blank"
+            title="LinkedIn profile"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a
+            href="https://github.com/cristhianelcaraca"
+            target="_blank"
+            title="GitHub profile"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+
+        <p class="text-center mt-5">
+          ✌️ This project was coded by Cristhiane Caraça and it's
+          <a
+            href="https://github.com/cristhianelcaraca/Project-Portfolio"
+            target="_blank"
+          >
+            open sourced
+          </a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
